@@ -1,0 +1,23 @@
+# Copy this file to terraform.tfvars and fill in your values
+
+# Required Variables
+owner_email = "your-email@company.com"
+
+# Optional Customizations
+project_name = "my-startup"
+environment  = "dev"
+aws_region   = "us-west-2"
+
+# VPC Configuration
+vpc_cidr           = "10.0.0.0/16"
+availability_zones = ["us-west-2a", "us-west-2b"]
+
+# EKS Configuration
+eks_cluster_version      = "1.27"
+eks_node_instance_types  = ["t3.medium"]
+
+# RDS Configuration
+rds_instance_class    = "db.t3.micro"
+rds_allocated_storage = 20
+db_name              = "appdb"
+db_username          = "dbadmin"
