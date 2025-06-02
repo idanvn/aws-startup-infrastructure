@@ -412,7 +412,7 @@ MIT License - Use it, modify it, ship it! 🚀
 
 ## Changelog
 
-### v1.0.0 (2025-01-01)
+### v1.0.0 
 - 🎉 Initial release by Idan Vana
 - ✅ Production-ready AWS infrastructure template
 - ✅ Complete Terraform automation
